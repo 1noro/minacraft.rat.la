@@ -16,5 +16,5 @@ wget https://launcher.mojang.com/v1/objects/bb2b6b1aefcd70dfd1892149ac3a215f6c63
 
 cp minecraft@.service /etc/systemd/system/minecraft@.service
 chown minecraft:minecraft -R /opt/minecraft #necesario
-systemctl enable minecraft@minecraft_rat_la
-#systemctl disable minecraft@minesrv
+systemctl enable minecraft@minecraft.rat.la
+#systemctl disable minecraft@minecraft.rat.la
