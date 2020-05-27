@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# no funciona, ¿desactualizado?
 #screen -ls
 LIST=$(screen -ls | grep mc- | cut -c 2- | cut -f1)
 
