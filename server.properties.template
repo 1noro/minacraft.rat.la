@@ -1,0 +1,58 @@
+## minecraft.rat.la
+# https://minecraft.gamepedia.com/Server.properties
+## NETWORK
+server-ip=
+server-port=28865
+rcon.port=28875
+query.port=28885
+
+prevent-proxy-connections=false
+player-idle-timeout=0
+network-compression-threshold=256
+# max-tick-time=-1
+max-tick-time=-1
+use-native-transport=true
+
+## SERVER OPERATORS (OP)
+enable-rcon=true
+# enable-rcon=false
+rcon.password=rana
+broadcast-rcon-to-ops=true
+
+# enable-query=true
+enable-query=false
+
+broadcast-console-to-ops=false
+enable-command-block=false
+op-permission-level=3
+function-permission-level=2
+white-list=false
+enforce-whitelist=false
+
+## GAME
+level-seed=
+level-name=rats_world
+motd=Rat's World
+gamemode=survival
+# force-gamemode=false
+force-gamemode=true
+view-distance=8
+max-build-height=256
+allow-nether=true
+generator-settings=
+resource-pack=
+resource-pack-sha1=use-native-transport=true
+hardcore=false
+pvp=true
+spawn-npcs=true
+generate-structures=true
+spawn-animals=true
+snooper-enabled=false
+difficulty=easy
+level-type=default
+spawn-monsters=true
+max-players=6
+spawn-protection=1
+online-mode=false
+allow-flight=false
+max-world-size=29999984
