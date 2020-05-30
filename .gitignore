@@ -2,11 +2,15 @@
 rats_world/
 logs/
 world/
+libraries/
+mods/
 
 # files
+*.jar
 ops.json
 server.jar
 usercache.json
 whitelist.json
 rc.local
 server.properties
+custom.jar
