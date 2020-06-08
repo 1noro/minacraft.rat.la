@@ -42,6 +42,7 @@ ProtectControlGroups=true
 #ExecStart=/bin/sh -c '/usr/bin/screen -DmS mc-%i /usr/bin/java -Xms3993M -Xmx3993M -jar server.jar nogui' # con este va bien en el server KOI
 ExecStart=/bin/bash -c '/usr/bin/screen -DmS mc-%i /usr/bin/java -Xms1024M -Xmx1850M -jar server.jar nogui' # 2039MB RAM (3-5 players) (t2.small AWS)
 #ExecStart=/bin/bash -c '/usr/bin/screen -DmS mc-%i /usr/bin/java -Xms1024M -Xmx1850M -jar custom.jar nogui' # 2039MB RAM (3-5 players) (t2.small AWS)
+#ExecStart=/bin/bash -c '/usr/bin/screen -DmS mc-%i /usr/bin/java -Xms680M -Xmx800M -jar custom.jar nogui' # 1024MB RAM (? players) (t2.micro AWS)
 
 # ------------------------------------------------------------------------------
 
